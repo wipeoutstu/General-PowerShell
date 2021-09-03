@@ -1,0 +1,15 @@
+
+Install-Module -Name VMware.PowerCLI –Scope CurrentUser
+
+Install-Module -Name Cisco.UCSManager –Scope CurrentUser
+
+Install-Module -Name Cisco.IMC –Scope CurrentUser
+
+Install-Module -Name Cisco.UCSCentral –Scope CurrentUser
+
+Install-Module -Name ImportExcel
+Import-Module -Name ImportExcel
+
+Install PowerShell 7
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+
